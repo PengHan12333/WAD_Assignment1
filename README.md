@@ -4,33 +4,20 @@ This module provides a set of functions to manage a shopping cart in a JavaScrip
 
 ## Functions
 
-### `addBeverageToCart(beverage)`
+- `addBeverageToCart(beverage)`: Adds a beverage to the cart.
 
-Adds a beverage to the cart.
+- `removeBeverageFromCart(beverage)`: Removes a specific beverage from the cart.
 
-### `removeBeverageFromCart(beverage)`
+- `viewCart()`: Displays the current contents of the cart.
 
-Removes a specific beverage from the cart.
+- `updateQuantityInCart(beverage, newQuantity)`: Updates the quantity of a beverage in the cart.
 
-### `viewCart()`
+- `calculateTotalPrice()`: Calculates the total price of items in the cart.
 
-Displays the current contents of the cart.
+- `checkout()`: Simulates the checkout process and provides a message with the total price.
 
-### `updateQuantityInCart(beverage, newQuantity)`
+- `clearCart()`: Clears the cart, removing all items.
 
-Updates the quantity of a beverage in the cart.
-
-### `calculateTotalPrice()`
-
-Calculates the total price of items in the cart.
-
-### `checkout()`
-
-Simulates the checkout process and provides a message with the total price.
-
-### `clearCart()`
-
-Clears the cart, removing all items.
 
 ## Usage
 
