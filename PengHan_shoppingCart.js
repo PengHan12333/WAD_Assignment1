@@ -9,7 +9,7 @@ module.exports = {
   // Function to remove a beverage from the cart
   removeBeverageFromCart(beverage) {
     const index = this.cart.indexOf(beverage);
-    if (index !== -1) {
+    if (index != -1) {
       this.cart.splice(index, 1);
     }
   },
@@ -22,7 +22,7 @@ module.exports = {
   // Function to update the quantity of a beverage in the cart
   updateQuantityInCart(beverage, newQuantity) {
     const index = this.cart.indexOf(beverage);
-    if (index !== -1) {
+    if (index != -1) {
       this.cart[index].quantity = newQuantity;
     }
   },
